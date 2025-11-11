@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Voice note transcriber");
+            Console.WriteLine("Johan");
         }
     }
 }
