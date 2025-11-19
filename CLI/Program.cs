@@ -1,4 +1,5 @@
-﻿namespace CLI
+﻿
+namespace CLI
 {
     internal class Program
     {
