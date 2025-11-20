@@ -39,7 +39,8 @@ namespace CLI
                         break;
 
                     default:
-                        Console.WriteLine("Please try again, enter the number (or Q to quit the program) shown above.");
+                        Console.Clear();
+                        Console.WriteLine("Ivalid Input. Please try again, enter the number (or Q to quit the program) shown below");
                         break;
                 }
 
