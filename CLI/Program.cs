@@ -1,9 +1,12 @@
-﻿namespace CLI
+﻿
+namespace CLI
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            MenuHelper menu = new MenuHelper();
+            menu.MainMenu();
         }
     }
 }
