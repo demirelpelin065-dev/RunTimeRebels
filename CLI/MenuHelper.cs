@@ -40,11 +40,12 @@ namespace CLI
 
                     default:
                         Console.Clear();
-                        Console.WriteLine("Ivalid Input. Please try again, enter the number (or Q to quit the program) shown below");
+                        Console.WriteLine("Invalid Input. Please try again, enter the number (or Q to quit the program) shown below");
                         break;
+
                 }
 
-                
+
             }
         }
 
