@@ -3,12 +3,11 @@ name: .NET CI
 on:
   push:
     branches:
-      - develop
-      - "feature/*"
+      - "*"        # trigga på alla egna brancher
+      - "!master"  # men INTE på master (master ska bara få PR)
   pull_request:
     branches:
-      - main
-      - develop
+      - master     # PR mot master triggar också CI
 
 jobs:
   build-and-test:
