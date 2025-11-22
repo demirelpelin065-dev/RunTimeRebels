@@ -1,9 +1,22 @@
 ﻿using System;
+using Core.Services;
 
 namespace CLI
 {
     internal class MenuHelper
     {
+        private readonly NoteService? _noteService;
+
+        // Ny konstruktor som tar emot NoteService
+        public MenuHelper(NoteService noteService)
+        {
+            _noteService = noteService;
+        }
+
+        // en parameterlös konstruktor för att undvika att bryta annan kod
+        public MenuHelper()
+        {
+        }
         public void MainMenu()
         {
             bool isOn = true; // Creates a bool that is used in the while loop below. As long as this is true, the loop continues. When set to false, it breaks out of the loop.
